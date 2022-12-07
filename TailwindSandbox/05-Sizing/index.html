@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Sizing</title>
+  </head>
+  <body>
+    <!-- Width -->
+    <div class="bg-black text-white w-12">Hello</div>
+    <div class="bg-black text-white w-48">Hello</div>
+    <div class="bg-black text-white w-96">Hello</div>
+
+    <!-- Percentages -->
+    <div class="bg-green-700 text-white w-1/4">Hello</div>
+    <div class="bg-green-700 text-white w-1/3">Hello</div>
+    <div class="bg-green-700 text-white w-1/2">Hello</div>
+
+    <!-- With the viewport -->
+    <div class="bg-blue-700 text-white w-screen">Hello</div>
+
+    <!-- With the container -->
+    <div class="bg-gray-700 text-white w-full">Hello</div>
+
+    <!-- Arbitraty width -->
+    <div class="bg-green-700 text-white w-[300px]">Hello</div>
+
+    <!-- Max width -->
+    <div class="bg-orange-700 text-white max-w-sm">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quidem quos
+      eum, itaque, optio dolor facere quo ipsa rerum magnam minima eveniet rem a
+      assumenda nesciunt fugiat asperiores nisi? Labore voluptate aliquid culpa
+      consequuntur? Corporis adipisci similique soluta illo, deserunt aliquid
+      enim at, labore obcaecati harum iure eaque illum ipsam
+    </div>
+    <div class="bg-orange-400 text-white max-w-lg mx-auto">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quidem quos
+      eum, itaque, optio dolor facere quo ipsa rerum magnam minima eveniet rem a
+      assumenda nesciunt fugiat asperiores nisi? Labore voluptate aliquid culpa
+      consequuntur? Corporis adipisci similique soluta illo, deserunt aliquid
+      enim at, labore obcaecati harum iure eaque illum ipsam
+    </div>
+
+    <!-- Height (most of the same options as widhts) -->
+    <div class="flex items-end">
+      <div class="bg-orange-500 w-20 h-24">item 1</div>
+      <div class="bg-orange-500 w-20 h-32">item 2</div>
+      <div class="bg-orange-500 w-20 h-40">item 3</div>
+      <div class="bg-orange-500 w-20 h-48">item 4</div>
+      <div class="bg-orange-500 w-20 h-64">item 5</div>
+      <div class="bg-orange-500 w-20 h-96">item 6</div>
+    </div>
+
+    <!-- Full screen height -->
+    <div class="bg-orange-100 h-screen">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quidem quos
+      eum, itaque, optio dolor facere quo ipsa rerum magnam minima eveniet rem a
+      assumenda nesciunt fugiat asperiores nisi? Labore voluptate aliquid culpa
+      consequuntur? Corporis adipisci similique soluta illo, deserunt aliquid
+      enim at, labore obcaecati harum iure eaque illum ipsam
+    </div>
+  </body>
+</html>

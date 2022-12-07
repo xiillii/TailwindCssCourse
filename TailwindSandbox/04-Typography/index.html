@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <title>Typography</title>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ['ui-sans-serif', 'system-ui'],
+            serif: ['Tapestry', 'Georgia'],
+            mono: ['ui-monospace', 'SFMono-Regular'],
+          },
+        },
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Font Family -->
+    <div class="font-sans">Tailwind is awesome</div>
+    <div class="font-serif">Tailwind is awesome</div>
+    <div class="font-mono">Tailwind is awesome</div>
+
+    <!-- Font size -->
+    <div class="text-xs">Taildwind font size is awesome</div>
+    <div class="text-sm">Taildwind font size is awesome</div>
+    <div class="text-base">Taildwind font size is awesome</div>
+    <div class="text-lg">Taildwind font size is awesome</div>
+    <div class="text-xl">Taildwind font size is awesome</div>
+    <div class="text-2xl">Taildwind font size is awesome</div>
+    <div class="text-9xl">Taildwind font size is awesome</div>
+    <div class="text-3xl">Taildwind font size is awesome</div>
+
+    <!-- Font weight -->
+    <div class="font-light text-lg">Taildwind font weight is awesome</div>
+    <div class="font-normal text-lg">Taildwind font weight is awesome</div>
+    <div class="font-medium text-lg">Taildwind font weight is awesome</div>
+    <div class="font-semibold text-lg">Taildwind font weight is awesome</div>
+    <div class="font-bold text-lg">Taildwind font weight is awesome</div>
+
+    <!-- Letter spacing -->
+    <div class="text-lg tracking-tight">
+      Taildwind letter spacing is awesome
+    </div>
+    <div class="text-lg tracking-wide">Taildwind letter spacing is awesome</div>
+    <div class="text-lg tracking-normal">
+      Taildwind letter spacing is awesome
+    </div>
+
+    <!-- Text alignment -->
+    <div class="text-lg text-left">Taildwind text alignment is awesome</div>
+    <div class="text-lg text-right">Taildwind text alignment is awesome</div>
+    <div class="text-lg text-center">Taildwind text alignment is awesome</div>
+
+    <!-- Text decoration -->
+    <div class="text-lg underline decoration-4 decoration-blue-400">
+      Taildwind text decoration is awesome
+    </div>
+
+    <!-- Text decoration style -->
+
+    <div class="text-lg underline decoration-double">
+      Taildwind text decoration is awesome
+    </div>
+    <div class="text-lg underline decoration-dotted">
+      Taildwind text decoration is awesome
+    </div>
+    <div class="text-lg underline decoration-dashed">
+      Taildwind text decoration is awesome
+    </div>
+    <div class="text-lg underline decoration-wavy">
+      Taildwind text decoration is awesome
+    </div>
+
+    <!-- Text decoration offset -->
+    <div
+      class="text-lg underline decoration-4 decoration-blue-400 underline-offset-8"
+    >
+      Taildwind text decoration offset is awesome
+    </div>
+
+    <!-- Text transform -->
+    <div class="normal-case">Tailwind text transform is awesome</div>
+    <div class="uppercase">Tailwind text transform is awesome</div>
+    <div class="lowercase">Tailwind text transform is awesome</div>
+    <div class="capitalize">Tailwind text transform is awesome</div>
+
+    <br />
+  </body>
+</html>
