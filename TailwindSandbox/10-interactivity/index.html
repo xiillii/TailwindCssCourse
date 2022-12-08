@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Interactivity</title>
+  </head>
+  <body>
+    <!-- Hover state activity -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m3 hover:bg-orange-500 hover:text-black"
+    >
+      Submit
+    </button>
+
+    <!-- Focus State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m3 focus:bg-orange-500 focus:text-black"
+    >
+      Submit
+    </button>
+    <!-- Active State Styling -->
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m3 active:bg-orange-500 active:text-black"
+    >
+      Submit
+    </button>
+
+    <!-- Styling based on parent state -->
+    <a
+      href=""
+      class="group block max-w-xs mx-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500"
+      ><h3 class="group-hover:text-white">Card Title</h3>
+      <p class="group-hover:text-white">This is a card text</p>
+    </a>
+
+    <!-- Pseudo classes -->
+    <ul>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        Item 1
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        Item 2
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        Item 3
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        Item 4
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        Item 5
+      </li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">
+        Item 6
+      </li>
+    </ul>
+
+    <!-- Appearance
+    Use appareance-none to reset any browser specific styling on an element. This
+    utility is often used when creating custom from components -->
+    <select class="appearance-none">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+
+    <!-- Cursor -->
+    <br />
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m3 hover:bg-orange-500 hover:text-black cursor-wait"
+    >
+      Submit
+    </button>
+    <button
+      class="bg-black text-white py-3 px-5 rounded-lg m3 hover:bg-orange-500 hover:text-black cursor-not-allowed"
+    >
+      Submit
+    </button>
+
+    <!-- User select -->
+    <div class="select-none">Lorem ipsum dolor sit amet.</div>
+    <div class="select-text">Lorem ipsum dolor sit amet.</div>
+    <div class="select-all">Lorem ipsum dolor sit amet.</div>
+    <div class="select-auto">Lorem ipsum dolor sit amet.</div>
+
+    <a href="#item" class="block my-6">Go To Item</a>
+
+    <!-- smooth scroll -->
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt vitae
+      debitis rerum ut. Numquam ad, delectus deleniti enim, nisi laboriosam
+      possimus doloremque obcaecati minus in pariatur sed? Corrupti, quam amet
+      fuga cumque nesciunt laudantium deleniti cum enim non est incidunt.
+      Cupiditate quisquam voluptas quas assumenda suscipit repellendus ut quam
+      maxime veniam animi recusandae esse non nobis, repellat nostrum qui, velit
+      facere cum minus dolor dolore et. Quia deserunt beatae aliquid nam aliquam
+      provident illum tempore incidunt amet! Soluta quod facilis quam
+      blanditiis? Corporis labore dignissimos repudiandae itaque id sint
+      veritatis tempora culpa, fuga, reiciendis numquam magni animi eos
+      similique deleniti!
+    </p>
+    <div id="item">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi temporibus
+      ab rerum aut veniam aspernatur nostrum quidem. Fugit consequatur eius
+      mollitia maxime sunt itaque, esse, veritatis earum, nisi officia iure
+      distinctio. Quas impedit nobis vel neque ducimus nostrum ipsum nemo quo
+      nam! Placeat recusandae est maxime quia? Nam, optio odio.
+    </div>
+  </body>
+</html>
